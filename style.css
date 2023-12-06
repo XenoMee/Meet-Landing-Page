@@ -6,3 +6,31 @@ body{
     margin: 0;
     font-family: 'Red Hat Display', sans-serif;
 }
+
+.bg-primary-dark-teal{
+    background-color: #4D96A9;
+}
+
+.bg-primary-dark-purple{
+    background-color: #855FB1;
+}
+
+.bg-primary-body{
+    background-color: #FAFAFA;
+}
+
+.text-primary-headings{
+    color: #28283D;
+}
+
+.text-primary-paragraphs{
+    color: #87879D;
+}
+
+.button-hover-light-teal{
+    background-color: #8FE3F9;
+}
+
+.button-hover-light-purple{
+    background-color: #D9B8FF;
+}
