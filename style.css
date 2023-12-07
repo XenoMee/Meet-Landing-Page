@@ -224,5 +224,8 @@ footer::after {
         margin: 0.5em auto;
     }
 
-    
+    .main-description{
+        width: 26em;
+        margin: auto;
+    }
 }
