@@ -47,7 +47,7 @@ body {
 }
 
 .container {
-  width: 23.5rem;
+  width: 23.4rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -56,12 +56,16 @@ body {
   text-align: center;
 }
 
+.container > header{
+    width: 26rem;
+}
+
 .logo-image {
   margin: 3rem 0rem;
 }
 
 header img:last-child {
-  width: 26rem;
+  width: 100%;
   object-fit: cover;
 }
 
