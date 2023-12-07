@@ -73,6 +73,21 @@ main header {
     margin-bottom: 5rem;
 }
 
+.main-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content;
+    gap: 1rem;
+    padding: 0rem 1rem;
+    margin-bottom: 5rem;
+}
+
+.main-images img{
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
 .modern{
     color: #4D96A9;
     font-weight: 700;
