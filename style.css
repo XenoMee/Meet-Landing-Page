@@ -262,5 +262,11 @@ footer::after {
         object-fit: cover;
     }
 
-   
+    .download-btn:hover{
+        background-color: #8fe3f9;
+    }
+
+    .what-btn:hover{
+        background-color: #d9b8ff;
+    }
 }
