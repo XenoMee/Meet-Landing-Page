@@ -30,14 +30,6 @@ body {
   color: #87879d;
 }
 
-.button-hover-light-teal {
-  background-color: #8fe3f9;
-}
-
-.button-hover-light-purple {
-  background-color: #d9b8ff;
-}
-
 .content {
   min-height: 100svh;
   display: flex;
@@ -258,4 +250,17 @@ footer::after {
     .container > header {
         min-width: 90em;
     }
+
+    .hero-image-left{
+        content: url("./public/assets/images/image-hero-left.png");
+        object-fit: cover;
+        float: left;
+    }
+
+    .hero-image-right{
+        float: right;
+        object-fit: cover;
+    }
+
+   
 }
