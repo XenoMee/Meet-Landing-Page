@@ -154,3 +154,10 @@ footer::after{
     opacity: 0.9;
 }
 
+.footer-content{
+    position: relative;
+    padding: 1.2rem;
+    z-index: 1;
+}
+
+
