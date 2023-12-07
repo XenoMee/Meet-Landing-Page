@@ -63,7 +63,7 @@ header img:last-child{
     object-fit: cover;
 }
 
-span{
+.modern{
     color: #4D96A9;
     font-weight: 700;
     text-transform: uppercase;
@@ -82,3 +82,9 @@ footer{
     height: 25rem;
 }
 
+.btn{
+    /* color: white; */
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
