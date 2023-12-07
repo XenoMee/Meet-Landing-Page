@@ -262,11 +262,15 @@ footer::after {
         object-fit: cover;
     }
 
-    .download-btn:hover{
+    section > header > .download-btn:active{
         background-color: #8fe3f9;
     }
 
-    .what-btn:hover{
+    .footer-content .download-btn:active{
+        background-color: #d9b8ff;
+    }
+
+    .what-btn:active{
         background-color: #d9b8ff;
     }
 
