@@ -269,4 +269,18 @@ footer::after {
     .what-btn:hover{
         background-color: #d9b8ff;
     }
+
+    main{
+        width: 90em;
+    }
+
+    .main-images{
+        width: 70em;
+        margin: 0 auto;
+        margin-bottom: 4em;
+    }
+
+    .main-content > p {
+        width: 29em;
+    }
 }
