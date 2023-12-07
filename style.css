@@ -68,6 +68,32 @@ header img:last-child{
     margin: 1rem 0rem;
 }
 
+.btn{
+    color: white;
+    display: block;
+    border: none;
+    border-radius: 2rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 1rem auto;
+}
+
+.version{
+    opacity: .6;
+}
+
+.download-btn{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+}
+
+.what-btn{
+    padding: 1rem 1.5rem;
+}
+
+
+
 main header {
     padding: 0rem 1.2rem;
     margin-bottom: 5rem;
@@ -116,15 +142,3 @@ footer{
     height: 25rem;
 }
 
-.btn{
-    /* color: white; */
-    display: block;
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-    margin: 1rem auto;
-}
-
-.download-btn{
-    margin-top: 2rem;
-}
