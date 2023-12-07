@@ -250,6 +250,9 @@ footer::after {
         margin: auto;
     }
 
-    
+    footer{
+        width: 100%;
+        background-image: url("./public/assets/tablet/image-footer.jpg");
+    }
 
 }
