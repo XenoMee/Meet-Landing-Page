@@ -45,7 +45,7 @@ body{
 }
 
 .container{
-    width: 23rem;
+    width: 23.5rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -69,7 +69,7 @@ header img:last-child{
 }
 
 main header {
-    padding: 0rem 1rem;
+    padding: 0rem 1.2rem;
     margin-bottom: 5rem;
 }
 
@@ -78,7 +78,7 @@ main header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: min-content;
     gap: 1rem;
-    padding: 0rem 1rem;
+    padding: 0rem 1.2rem;
     margin-bottom: 5rem;
 }
 
@@ -89,7 +89,12 @@ main header {
 }
 
 .main-content{
-    padding: 0rem 1rem;
+    padding: 0rem 1.2rem;
+    margin-bottom: 5rem;
+}
+
+.main-content-title{
+    font-size: 2.1rem;
 }
 
 .modern{
