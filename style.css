@@ -40,8 +40,12 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     text-align: center;
+}
+
+.logo-image{
+    margin: 3rem 0rem;
 }
 
 header img:last-child{
