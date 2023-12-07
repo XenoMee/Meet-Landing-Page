@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-  width: 24rem;
+  width: 23.44rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -48,27 +48,32 @@ body {
   text-align: center;
 }
 
-.container > header {
-  width: 26rem;
-}
-
 .logo-image {
   margin: 3rem 0rem;
 }
 
-.hero-image{
-    width: 100%;
-    object-fit: cover;
+section > header {
+  margin-bottom: 5rem;
+}
+
+.hero-image {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
 }
 
 .hero-image-left,
-.hero-image-right{
+.hero-image-right {
   display: none;
 }
 
 .hero-image-left,
-.hero-image-right{
-    display: hidden;
+.hero-image-right {
+  display: hidden;
+}
+
+.header-content{
+  padding: 0rem 1.2rem;
 }
 
 .main-heading {
@@ -99,15 +104,6 @@ body {
 .what-btn {
   padding: 1rem 1.5rem;
   margin-top: 1rem;
-}
-
-main header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  padding: 0rem 1.2rem;
-  margin-bottom: 5rem;
 }
 
 .break-content-01 {
@@ -224,7 +220,7 @@ footer::after {
     width: 48em;
   }
 
-  .hero-image-left{
+  .hero-image-left {
     width: 50em;
   }
 
@@ -266,74 +262,82 @@ footer::after {
 }
 
 @media (min-width: 90em) {
-    .container{
-        min-width: 90em;
-    }
+  .container {
+    min-width: 90em;
+  }
 
-    .container > header {
-        min-width: 90em;
-    }
+  .container > header {
+    min-width: 90em;
+  }
 
-    .hero-image-left{
-        content: url("./public/assets/images/image-hero-left.png");
-        object-fit: cover;
-        float: left;
-    }
+  .hero-image {
+    display: none;
+  }
 
-    .hero-image-right{
-        float: right;
-        object-fit: cover;
-    }
+  .hero-image-left,
+  .hero-image-right {
+    width: 25em;
+    display: inline;
+    object-fit: cover;
+  }
 
-    section > header > .download-btn:active{
-        background-color: #8fe3f9;
-    }
+  .hero-image-left{
+    float: left;
+  }
 
-    .footer-content .download-btn:active{
-        background-color: #d9b8ff;
-    }
+  .hero-image-right{
+    float: right;
+  }
 
-    .what-btn:active{
-        background-color: #d9b8ff;
-    }
+  section > header > .download-btn:active {
+    background-color: #8fe3f9;
+  }
 
-    main{
-        width: 90em;
-    }
+  .footer-content .download-btn:active {
+    background-color: #d9b8ff;
+  }
 
-    .main-images{
-        width: 70em;
-        margin: 0 auto;
-        margin-bottom: 4em;
-    }
+  .what-btn:active {
+    background-color: #d9b8ff;
+  }
 
-    .main-content > p {
-        width: 29em;
-    }
+  main {
+    width: 90em;
+  }
 
-    footer{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        background-image: url("./public/assets/desktop/image-footer.jpg");
-    }
+  .main-images {
+    width: 70em;
+    margin: 0 auto;
+    margin-bottom: 4em;
+  }
 
-    .footer-content{
-        display: flex;
-        width: 90%;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 2em;
-        text-align: start;
-    }
+  .main-content > p {
+    width: 29em;
+  }
 
-    .footer-title{
-        font-size: 2em;
-        width: 12em;
-    }
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./public/assets/desktop/image-footer.jpg");
+  }
 
-    .footer-description{
-        width: 19em;
-        margin: 0;
-    }
+  .footer-content {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    text-align: start;
+  }
+
+  .footer-title {
+    font-size: 2em;
+    width: 12em;
+  }
+
+  .footer-description {
+    width: 19em;
+    margin: 0;
+  }
 }
