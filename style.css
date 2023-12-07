@@ -36,7 +36,16 @@ body{
     background-color: #D9B8FF;
 }
 
+.content{
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .container{
+    width: 23rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -51,6 +60,7 @@ body{
 
 header img:last-child{
     width: 100%;
+    object-fit: cover;
 }
 
 span{
@@ -59,3 +69,16 @@ span{
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./public/assets/mobile/image-footer.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 25rem;
+}
+
