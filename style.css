@@ -64,9 +64,9 @@ body {
   margin: 3rem 0rem;
 }
 
-header img:last-child {
-  width: 100%;
-  object-fit: cover;
+section > header > img{
+    width: 100%;
+    object-fit: cover;
 }
 
 .main-heading {
