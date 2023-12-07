@@ -41,4 +41,9 @@ body{
     justify-content: flex-start;
     align-items: center;
     gap: 2rem;
+    text-align: center;
+}
+
+header img:last-child{
+    width: 100%;
 }
