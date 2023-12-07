@@ -64,11 +64,6 @@ body {
   margin: 3rem 0rem;
 }
 
-header img:last-child {
-  width: 100%;
-  object-fit: cover;
-}
-
 .main-heading {
   font-size: 2.9rem;
   margin: 1rem 0rem;
@@ -253,4 +248,14 @@ footer::after {
     width: 100%;
     background-image: url("./public/assets/tablet/image-footer.jpg");
   }
+}
+
+@media (min-width: 90em) {
+    .container{
+        min-width: 90em;
+    }
+
+    .container > header {
+        min-width: 90em;
+    }
 }
