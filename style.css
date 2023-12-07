@@ -240,4 +240,16 @@ footer::after {
     }
 
     
+    .main-content-title{
+        width: 11em;
+        margin: 0.5em auto;
+    }
+
+    .main-content > p {
+        width: 36em;
+        margin: auto;
+    }
+
+    
+
 }
