@@ -5,6 +5,7 @@
 body{
     margin: 0;
     font-family: 'Red Hat Display', sans-serif;
+    color: white;
 }
 
 .bg-primary-dark-teal{
@@ -50,4 +51,11 @@ body{
 
 header img:last-child{
     width: 100%;
+}
+
+span{
+    color: #4D96A9;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
 }
