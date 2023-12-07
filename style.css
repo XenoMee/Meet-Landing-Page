@@ -56,6 +56,14 @@ body {
   margin: 3rem 0rem;
 }
 
+.hero-image-left{
+    object-fit: cover;   
+}
+
+.hero-image-right{
+    visibility: hidden;
+  }
+
 .main-heading {
   font-size: 2.9rem;
   margin: 1rem 0rem;
@@ -202,6 +210,10 @@ footer::after {
   }
 
   .container > header {
+    width: 48em;
+  }
+
+  .hero-image-left{
     width: 50em;
   }
 
