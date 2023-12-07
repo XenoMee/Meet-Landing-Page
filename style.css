@@ -88,6 +88,10 @@ main header {
     object-fit: cover;
 }
 
+.main-content{
+    padding: 0rem 1rem;
+}
+
 .modern{
     color: #4D96A9;
     font-weight: 700;
