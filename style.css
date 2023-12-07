@@ -100,6 +100,28 @@ main header {
   margin-bottom: 5rem;
 }
 
+.break-content-01{
+    margin-bottom: 4rem;
+}
+
+.break-content-shape{
+    border: 0.1rem solid #87879d;
+    margin: auto;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.slim-line{
+    width: 0.1rem;
+    height: 5rem;
+}
+
+.empty-circle{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+
 .main-images {
   display: grid;
   grid-template-columns: 1fr 1fr;
