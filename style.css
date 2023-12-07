@@ -228,4 +228,9 @@ footer::after {
         width: 26em;
         margin: auto;
     }
+
+    .btn{
+        display: inline-block;
+        margin: 2em 0.5em;    
+    }   
 }
