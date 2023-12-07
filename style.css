@@ -202,3 +202,57 @@ footer::after {
   width: 18rem;
   margin: auto;
 }
+
+@media (min-width: 48em) {
+    .content{
+        min-height: 100vh;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .container{
+        width: 48em;
+    }
+
+    .container > header{
+        width: 50em;
+    }
+
+    .main-heading{
+        font-size: 3em;
+        width: 10em;
+        margin: 0.5em auto;
+    }
+
+    .main-description{
+        width: 26em;
+        margin: auto;
+    }
+
+    .btn{
+        display: inline-block;
+        margin: 2em 0.5em;    
+    }   
+
+    .main-images{
+        grid-template-columns: repeat(4,1fr);
+        margin-bottom: 3em;
+    }
+
+    
+    .main-content-title{
+        width: 11em;
+        margin: 0.5em auto;
+    }
+
+    .main-content > p {
+        width: 36em;
+        margin: auto;
+    }
+
+    footer{
+        width: 100%;
+        background-image: url("./public/assets/tablet/image-footer.jpg");
+    }
+
+}
