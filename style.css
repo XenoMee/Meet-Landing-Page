@@ -233,4 +233,11 @@ footer::after {
         display: inline-block;
         margin: 2em 0.5em;    
     }   
+
+    .main-images{
+        grid-template-columns: repeat(4,1fr);
+        margin-bottom: 3em;
+    }
+
+    
 }
