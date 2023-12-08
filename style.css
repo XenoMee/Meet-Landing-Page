@@ -270,6 +270,10 @@ footer::after {
     min-width: 90em;
   }
 
+  main{
+    width: 100%;
+  }
+
   .hero-image {
     display: none;
   }
