@@ -330,7 +330,7 @@ footer::after {
     justify-content: center;
     align-items: center;
     background-image: url("./public/assets/desktop/image-footer.jpg");
-    margin-bottom: 3em;
+    margin-bottom: 2em;
   }
 
   .footer-content {
