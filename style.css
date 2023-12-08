@@ -71,11 +71,6 @@ section > header {
   display: none;
 }
 
-.hero-image-left,
-.hero-image-right {
-  display: hidden;
-}
-
 .header-content{
   padding: 0rem 1.2rem;
 }
@@ -254,7 +249,7 @@ footer::after {
 
   .main-images {
     grid-template-columns: repeat(4, 1fr);
-    gap: 1em;
+    gap: 1.5em;
     margin-bottom: 3em;
   }
 
