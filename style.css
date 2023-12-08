@@ -224,6 +224,16 @@ footer::after {
     width: 48em;
   }
 
+  section > header{
+    margin-top: 22em;
+  }
+
+  .hero-image{
+    width: 109%;
+    top: -22em;
+    left: -2em;
+  }
+
   .hero-image-left {
     width: 50em;
   }
