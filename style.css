@@ -53,12 +53,16 @@ body {
 }
 
 section > header {
+  position: relative;
   margin-bottom: 5rem;
+  margin-top: 11rem;
 }
 
 .hero-image {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  top: -12rem;
+  left: -1.1rem;
+  width: 25.7rem;
   object-fit: cover;
 }
 
