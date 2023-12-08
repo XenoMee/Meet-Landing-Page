@@ -321,11 +321,19 @@ footer::after {
   }
 
   .hero-image-left{
+    position: relative;
+    left: -1.5em;
     float: left;
   }
 
   .hero-image-right{
+    position: relative;
+    right: -1em;
     float: right;
+  }
+
+  .header-content{
+    padding: 0;
   }
 
   .main-heading{
