@@ -229,13 +229,9 @@ footer::after {
   }
 
   .hero-image{
-    width: 109%;
+    width: 107%;
     top: -22em;
-    left: -2em;
-  }
-
-  .hero-image-left {
-    width: 50em;
+    left: -1.8em;
   }
 
   .main-heading {
@@ -251,6 +247,7 @@ footer::after {
   }
 
   .btn {
+    font-size: 1em;
     display: inline-block;
     margin: 2em 0.5em;
   }
