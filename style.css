@@ -339,6 +339,7 @@ footer::after {
   .main-heading{
     font-size: 4em;
     width: 7em;
+    line-height: 1;
   }
 
   .main-description{
