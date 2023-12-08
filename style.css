@@ -261,12 +261,18 @@ footer::after {
     margin-bottom: 3em;
   }
 
+  .modern{
+    font-size: 1.2em;
+  }
+
   .main-content-title {
+    font-size: 2.3em;
     width: 11em;
     margin: 0.5em auto;
   }
 
   .main-content > p {
+    font-size: 1.2em;
     width: 36em;
     margin: auto;
   }
