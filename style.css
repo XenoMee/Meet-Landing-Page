@@ -289,6 +289,15 @@ footer::after {
     float: right;
   }
 
+  .main-heading{
+    font-size: 4em;
+    width: 7em;
+  }
+
+  .main-description{
+    font-size: 1.3em;
+  }
+
   section > header > .download-btn:active {
     background-color: #8fe3f9;
   }
@@ -299,10 +308,6 @@ footer::after {
 
   .what-btn:active {
     background-color: #d9b8ff;
-  }
-
-  main {
-    width: 90em;
   }
 
   .main-images {
