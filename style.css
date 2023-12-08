@@ -373,7 +373,6 @@ footer::after {
     justify-content: center;
     align-items: center;
     background-image: url("./public/assets/desktop/image-footer.jpg");
-    margin-bottom: 2em;
   }
 
   .footer-content {
@@ -388,6 +387,7 @@ footer::after {
   .footer-title {
     font-size: 2em;
     width: 12em;
+    margin: 0;
   }
 
   .footer-description {
