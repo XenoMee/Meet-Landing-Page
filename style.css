@@ -280,11 +280,15 @@ footer::after {
   }
 
   .footer-title{
+    width: 10em;
     font-size: 1.9em;
+    margin: auto;
   }
 
   .footer-description{
+    width: 32em;
     font-size: 1.2em;  
+    margin-top: 1.5em;
   }
 }
 
