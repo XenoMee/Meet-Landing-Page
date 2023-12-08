@@ -278,6 +278,14 @@ footer::after {
     width: 100%;
     background-image: url("./public/assets/tablet/image-footer.jpg");
   }
+
+  .footer-title{
+    font-size: 1.9em;
+  }
+
+  .footer-description{
+    font-size: 1.2em;  
+  }
 }
 
 @media (min-width: 90em) {
