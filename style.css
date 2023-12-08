@@ -305,6 +305,10 @@ footer::after {
     width: 100%;
   }
 
+  section > header{
+    margin-top: 0;
+  }
+
   .hero-image {
     display: none;
   }
