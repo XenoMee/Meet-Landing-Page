@@ -257,6 +257,7 @@ footer::after {
 
   .main-images {
     grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
     margin-bottom: 3em;
   }
 
