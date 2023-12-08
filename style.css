@@ -239,12 +239,13 @@ footer::after {
   }
 
   .main-heading {
-    font-size: 3em;
+    font-size: 3.2em;
     width: 10em;
     margin: 0.5em auto;
   }
 
   .main-description {
+    font-size: 1.2em;
     width: 26em;
     margin: auto;
   }
