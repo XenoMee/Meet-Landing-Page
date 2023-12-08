@@ -325,10 +325,12 @@ footer::after {
   }
 
   footer {
+    height: 19em;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-image: url("./public/assets/desktop/image-footer.jpg");
+    margin-bottom: 3em;
   }
 
   .footer-content {
