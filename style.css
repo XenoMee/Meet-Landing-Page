@@ -1,3 +1,14 @@
+:root {
+  /* Colors */
+  --clr-primary-100: hsl(0, 0%, 98%);
+  --clr-primary-600: hsl(192, 37%, 48%);
+  --clr-primary-900: hsl(240, 21%, 20%);
+  --clr-accent-600: hsl(268, 34%, 53%);
+  --clr-accent-400: hsl(240, 10%, 57%);
+  --clr-download-hover: hsl(192, 90%, 77%);
+  --clr-question-hover: hsl(268, 100%, 86%);
+}
+
 *,
 *::after,
 *::before {
@@ -8,26 +19,6 @@ body {
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
   color: white;
-}
-
-.bg-primary-dark-teal {
-  background-color: #4d96a9;
-}
-
-.bg-primary-dark-purple {
-  background-color: #855fb1;
-}
-
-.bg-primary-body {
-  background-color: #fafafa;
-}
-
-.text-primary-headings {
-  color: #28283d;
-}
-
-.text-primary-paragraphs {
-  color: #87879d;
 }
 
 .content {
@@ -71,7 +62,7 @@ section > header {
   display: none;
 }
 
-.header-content{
+.header-content {
   padding: 0rem 1.2rem;
 }
 
@@ -219,11 +210,11 @@ footer::after {
     width: 48em;
   }
 
-  section > header{
+  section > header {
     margin-top: 22em;
   }
 
-  .hero-image{
+  .hero-image {
     width: 107%;
     top: -22em;
     left: -1.8em;
@@ -253,7 +244,7 @@ footer::after {
     margin-bottom: 3em;
   }
 
-  .modern{
+  .modern {
     font-size: 1.2em;
   }
 
@@ -274,15 +265,15 @@ footer::after {
     background-image: url("./public/assets/tablet/image-footer.jpg");
   }
 
-  .footer-title{
+  .footer-title {
     width: 10em;
     font-size: 1.9em;
     margin: auto;
   }
 
-  .footer-description{
+  .footer-description {
     width: 32em;
-    font-size: 1.2em;  
+    font-size: 1.2em;
     margin-top: 1.5em;
   }
 }
@@ -296,11 +287,11 @@ footer::after {
     min-width: 90em;
   }
 
-  main{
+  main {
     width: 100%;
   }
 
-  section > header{
+  section > header {
     margin-top: 0;
   }
 
@@ -315,29 +306,29 @@ footer::after {
     object-fit: cover;
   }
 
-  .hero-image-left{
+  .hero-image-left {
     position: relative;
     left: -1.5em;
     float: left;
   }
 
-  .hero-image-right{
+  .hero-image-right {
     position: relative;
     right: -1em;
     float: right;
   }
 
-  .header-content{
+  .header-content {
     padding: 0;
   }
 
-  .main-heading{
+  .main-heading {
     font-size: 4em;
     width: 7em;
     line-height: 1;
   }
 
-  .main-description{
+  .main-description {
     font-size: 1.3em;
   }
 
