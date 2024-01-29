@@ -33,6 +33,14 @@
   margin: 0;
 }
 
+/* Make images responsive */
+img,
+svg,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
