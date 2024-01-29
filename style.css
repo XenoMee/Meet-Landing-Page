@@ -162,6 +162,10 @@ body {
   display: grid;
 }
 
+.accent-color {
+  color: var(--clr-primary-600);
+}
+
 /* Utility classes */
 .has-flex-col {
   display: flex;
