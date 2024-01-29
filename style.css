@@ -75,3 +75,9 @@ body {
   color: var(--clr-accent-400);
   min-height: 100svh;
 }
+
+/* Typography */
+.intro-title {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+}
