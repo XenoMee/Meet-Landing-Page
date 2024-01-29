@@ -22,7 +22,7 @@
 
   /* Content space */
   --content-spacing: 1rem;
-  --content-padding: 2.5rem 1rem;
+  --content-padding: 2rem 1rem;
 }
 
 /* Use a more-intuitive box-sizing model */
@@ -111,4 +111,12 @@ body {
 .logo {
   margin: 0 auto;
   padding: var(--content-padding);
+}
+
+/* .container {
+  display: grid;
+  place-items: center;
+} */
+
+.intro-image {
 }
