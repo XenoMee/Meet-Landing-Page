@@ -21,10 +21,16 @@
   --fw-bold: 900;
 }
 
+/* Use a more-intuitive box-sizing model */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
 }
 
 body {
