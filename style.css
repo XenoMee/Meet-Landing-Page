@@ -101,8 +101,8 @@ body {
 /* Buttons */
 .btn {
   padding: 0.8em 2em;
-  /* color: var(--clr-primary-100);
-  border-radius: 2rem;
+  color: var(--clr-primary-100);
+  /* border-radius: 2rem;
   border: none; */
 }
 
