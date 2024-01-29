@@ -154,7 +154,7 @@ p {
 .hero-main__images {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--content-spacing);
+  gap: 2.5rem;
 }
 
 .main-image {
