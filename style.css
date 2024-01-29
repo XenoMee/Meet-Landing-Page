@@ -5,8 +5,10 @@
   --clr-primary-900: hsl(240, 21%, 20%);
   --clr-accent-600: hsl(268, 34%, 53%);
   --clr-accent-400: hsl(240, 10%, 57%);
-  --clr-primary-hover: hsl(192, 90%, 77%);
-  --clr-accent-hover: hsl(268, 100%, 86%);
+  --clr-primary-version: hsl(192, 90%, 77%);
+  --clr-accent-version: hsl(268, 100%, 86%);
+  --clr-primary-hover: hsl(192, 54%, 64%);
+  --clr-accent-hover: hsl(267, 54%, 71%);
 
   /* Font family */
   --ff-base: "Red Hat Display", sans-serif;
@@ -121,24 +123,30 @@ body {
   cursor: pointer;
 }
 
+/* Background color and hovver/focus */
 .btn--primary-color {
   background-color: var(--clr-primary-600);
 }
 
-/* .btn--primary-color:is(:hover, :focus) {
-  background-color: var(--clr-download-hover);
-} */
+.btn--primary-color:is(:hover, :focus) {
+  background-color: var(--clr-primary-hover);
+}
 
 .btn--accent-color {
   background-color: var(--clr-accent-600);
 }
 
+.btn--accent-color:is(:hover, :focus) {
+  background-color: var(--clr-accent-hover);
+}
+
+/* Version text */
 .version-primary-color {
-  color: var(--clr-download-hover);
+  color: var(--clr-primary-version);
 }
 
 .version-accent-color {
-  color: var(--clr-question-hover);
+  color: var(--clr-accent-version);
 }
 
 /* Layout */
