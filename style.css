@@ -97,3 +97,7 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
+
+.footer-text {
+  font-size: 1.125rem;
+}
