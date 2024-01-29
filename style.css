@@ -84,9 +84,12 @@ body {
   color: var(--clr-primary-900);
 }
 
-.hero--title {
+.content-title {
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
+}
+
+.hero--title {
   color: var(--clr-primary-900);
 }
 
