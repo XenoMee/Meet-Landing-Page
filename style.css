@@ -99,7 +99,16 @@ p {
 
 .intro--title {
   width: 10ch;
-  margin: 1rem auto 1.5rem;
+  margin: 0rem auto 1.5rem;
+}
+
+.hero-description {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  font-size: 1.125rem;
 }
 
 /* Buttons */
@@ -118,15 +127,6 @@ p {
   background-color: var(--clr-accent-600);
 }
 
-.hero-description {
-  letter-spacing: 4px;
-  text-transform: uppercase;
-}
-
-.footer-text {
-  font-size: 1.125rem;
-}
-
 /* Layout */
 
 .logo {
@@ -137,9 +137,9 @@ p {
   padding: var(--content-padding);
 }
 
-/* .intro-buttons {
-  gap: 1rem;
-} */
+.intro-buttons {
+  gap: var(--content-spacing);
+}
 
 /* .container {
   display: grid;
