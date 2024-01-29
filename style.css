@@ -22,7 +22,7 @@
 
   /* Content space */
   --content-spacing: 1rem;
-  --content-padding: 2rem 1rem;
+  --content-padding: 2rem 1.5rem;
 }
 
 /* Use a more-intuitive box-sizing model */
