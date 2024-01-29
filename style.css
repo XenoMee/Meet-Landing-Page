@@ -22,7 +22,7 @@
 
   /* Content space */
   --content-spacing: 1rem;
-  --content-padding: 1rem;
+  --content-padding: 2.5rem 1rem;
 }
 
 /* Use a more-intuitive box-sizing model */
@@ -109,4 +109,5 @@ body {
 /* Layout */
 .logo {
   margin: 0 auto;
+  padding: var(--content-padding);
 }
