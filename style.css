@@ -71,6 +71,7 @@ body {
   background-color: var(--clr-primary-100);
   font-family: var(--ff-base);
   font-size: var(--ff-base);
+  line-height: 1.6;
   font-weight: var(--fw-regular);
   color: var(--clr-accent-400);
   min-height: 100svh;
