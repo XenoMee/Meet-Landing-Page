@@ -101,3 +101,9 @@ body {
 .footer-text {
   font-size: 1.125rem;
 }
+
+/* Layout */
+.container {
+  --content-spacing: 1rem;
+  --content-padding: 1rem;
+}
