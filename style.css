@@ -7,6 +7,8 @@
   --clr-accent-400: hsl(240, 10%, 57%);
   --clr-download-hover: hsl(192, 90%, 77%);
   --clr-question-hover: hsl(268, 100%, 86%);
+
+  --ff-base: "Red Hat Display", sans-serif;
 }
 
 *,
