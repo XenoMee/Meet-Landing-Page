@@ -92,7 +92,7 @@ body {
 .intro--title {
   width: 10ch;
   font-size: var(--fs-h1);
-  margin: 0rem auto 1.5rem;
+  margin: 1rem auto 1.5rem;
 }
 
 .content-title {
