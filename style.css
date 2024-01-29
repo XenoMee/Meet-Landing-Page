@@ -80,4 +80,5 @@ body {
 .intro-title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-bold);
+  color: var(--clr-primary-900);
 }
