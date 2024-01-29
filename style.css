@@ -157,6 +157,10 @@ p {
   gap: var(--content-spacing);
 }
 
+.main-image {
+  border-radius: 0.8rem;
+}
+
 /* Utility classes */
 .has-flex-col {
   display: flex;
