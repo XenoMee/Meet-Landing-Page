@@ -133,6 +133,7 @@ body {
 
 /* Layout */
 
+/* Intro */
 .logo {
   margin: 2.5rem auto;
 }
@@ -149,6 +150,7 @@ body {
   padding: var(--content-padding);
 }
 
+/* Main Content */
 .hero-main__images {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -167,6 +169,12 @@ body {
 
 .accent-color {
   color: var(--clr-primary-600);
+}
+
+/* Footer */
+.footer {
+  color: var(--clr-primary-100);
+  position: relative;
 }
 
 /* Utility classes */
