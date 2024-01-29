@@ -95,7 +95,7 @@ body {
 
 .intro--title {
   width: 10ch;
-  margin: 3rem auto 1.5rem;
+  margin: 1rem auto 1.5rem;
 }
 
 .hero-description {
@@ -111,6 +111,10 @@ body {
 
 .logo {
   margin: 2.5rem auto;
+}
+
+.hero-intro__content {
+  padding: var(--content-padding);
 }
 
 /* .container {
