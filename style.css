@@ -116,6 +116,7 @@ body {
   border-radius: 2rem;
   border: none;
   font-weight: var(--fw-bold);
+  cursor: pointer;
 }
 
 .btn--download {
