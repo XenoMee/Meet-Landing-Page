@@ -116,3 +116,9 @@ body {
   display: grid;
   place-items: center;
 } */
+
+/* Utility classes */
+.has-flex-col {
+  display: flex;
+  flex-direction: column;
+}
