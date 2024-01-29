@@ -191,7 +191,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  /* z-index: -2; */
+  z-index: -2;
 }
 
 .footer::after {
@@ -201,7 +201,7 @@ body {
   height: 100%;
   inset: 0;
   background-color: var(--clr-primary-600);
-  /* opacity: 0.9; */
+  opacity: 0.9;
   z-index: -1;
 }
 
