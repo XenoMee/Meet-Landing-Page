@@ -83,19 +83,19 @@ body {
 }
 
 /* Typography */
-.intro-title {
-  font-size: var(--fs-h1);
-  font-weight: var(--fw-bold);
-  color: var(--clr-primary-900);
-}
-
 .content-title {
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
 }
 
+.intro--title,
 .hero--title {
   color: var(--clr-primary-900);
+}
+
+.intro--title {
+  width: 10ch;
+  margin: 1.5rem auto;
 }
 
 .hero-description {
@@ -108,15 +108,11 @@ body {
 }
 
 /* Layout */
-.logo {
-  margin: 0 auto;
-  padding: var(--content-padding);
-}
+/* .logo {
+  margin: 2.5rem auto 1rem;
+} */
 
 /* .container {
   display: grid;
   place-items: center;
 } */
-
-.intro-image {
-}
