@@ -151,11 +151,11 @@ p {
   padding: var(--content-padding);
 }
 
-/* .hero-main__images {
+.hero-main__images {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--content-spacing);
-} */
+}
 
 /* Utility classes */
 .has-flex-col {
