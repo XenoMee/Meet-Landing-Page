@@ -73,12 +73,13 @@ button {
 /* General/Generic */
 body {
   background-color: var(--clr-primary-100);
+  color: var(--clr-accent-400);
   font-family: var(--ff-base);
   font-size: var(--ff-base);
   line-height: 1.6;
   text-align: center;
   font-weight: var(--fw-regular);
-  color: var(--clr-accent-400);
+  overflow-x: hidden;
   min-height: 100svh;
 }
 
@@ -137,9 +138,13 @@ body {
 
 /* Layout */
 
-/* Intro */
 .logo {
   margin: 2.5rem auto;
+}
+
+/* Intro */
+.intro-image {
+  transform: scale(1.1);
 }
 
 .hero-intro__content {
