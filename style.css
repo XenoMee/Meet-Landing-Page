@@ -84,11 +84,6 @@ body {
 }
 
 /* Typography */
-.content-title {
-  font-size: var(--fs-h2);
-  font-weight: var(--fw-bold);
-}
-
 .intro--title,
 .hero--title {
   color: var(--clr-primary-900);
@@ -96,7 +91,13 @@ body {
 
 .intro--title {
   width: 10ch;
+  font-size: var(--fs-h1);
   margin: 0rem auto 1.5rem;
+}
+
+.content-title {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
 }
 
 .hero-description {
@@ -139,7 +140,7 @@ body {
 /* Layout */
 
 .logo {
-  margin: 3.5rem auto;
+  margin: 3rem auto 3.5rem;
 }
 
 /* Intro */
