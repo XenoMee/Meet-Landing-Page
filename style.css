@@ -83,3 +83,8 @@ body {
   font-weight: var(--fw-bold);
   color: var(--clr-primary-900);
 }
+
+.hero-title {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+}
