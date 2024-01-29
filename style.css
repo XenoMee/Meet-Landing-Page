@@ -83,7 +83,7 @@ body {
 }
 
 p {
-  margin-bottom: var(--content-spacing);
+  margin-bottom: 2rem;
 }
 
 /* Typography */
@@ -147,9 +147,14 @@ p {
   gap: var(--content-spacing);
 }
 
-/* .container {
+.hero-main {
+  padding: var(--content-padding);
+}
+
+/* .hero-main__images {
   display: grid;
-  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--content-spacing);
 } */
 
 /* Utility classes */
