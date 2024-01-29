@@ -61,14 +61,13 @@ h2 {
   line-height: 1.125;
 }
 
+/* Inherit fonts */
 button {
   font: inherit;
 }
 
 body {
-  margin: 0;
-  font-family: "Red Hat Display", sans-serif;
-  color: white;
+  min-height: 100svh;
 }
 
 .content {
