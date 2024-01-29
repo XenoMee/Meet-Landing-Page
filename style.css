@@ -41,6 +41,7 @@ picture {
   display: block;
 }
 
+/* Avoid text overflow */
 p,
 h1,
 h2,
@@ -49,6 +50,15 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+/* Reduce line-height for large text */
+h1 {
+  line-height: 1;
+}
+
+h2 {
+  line-height: 1.125;
 }
 
 body {
