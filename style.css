@@ -188,9 +188,9 @@ body {
 }
 
 /* Main Content */
-/* .hero-main {
+.hero-main {
   margin-top: 5rem;
-} */
+}
 
 .hero-main__images {
   display: grid;
