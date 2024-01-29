@@ -126,9 +126,12 @@ body {
   background-color: var(--clr-accent-600);
 }
 
-.version-color {
+.version-primary-color {
   color: var(--clr-download-hover);
-  opacity: 0.8;
+}
+
+.version-accent-color {
+  color: var(--clr-question-hover);
 }
 
 /* Layout */
@@ -167,7 +170,7 @@ body {
   gap: 1.5rem;
 }
 
-.accent-color {
+.primary-color {
   color: var(--clr-primary-600);
 }
 
@@ -175,6 +178,7 @@ body {
 .footer {
   color: var(--clr-primary-100);
   position: relative;
+  padding: var(--content-padding);
 }
 
 .footer::after {
