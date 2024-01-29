@@ -11,6 +11,11 @@
   /* Font family */
   --ff-base: "Red Hat Display", sans-serif;
 
+  /* Font size */
+  --fs-default: 1rem;
+  --fs-h1: 2.5rem;
+  --fs-h2: 2rem;
+
   /* Font weight */
   --fw-regular: 500;
   --fw-bold: 900;
