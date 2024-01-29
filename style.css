@@ -126,4 +126,5 @@ body {
 .has-flex-col {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
