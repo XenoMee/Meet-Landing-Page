@@ -121,11 +121,11 @@ body {
   cursor: pointer;
 }
 
-.btn--download {
+.btn--primary-color {
   background-color: var(--clr-primary-600);
 }
 
-.btn--question {
+.btn--accent-color {
   background-color: var(--clr-accent-600);
 }
 
