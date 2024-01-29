@@ -67,6 +67,8 @@ button {
 }
 
 body {
+  background-color: var(--clr-primary-100);
+  color: var(--clr-accent-400);
   min-height: 100svh;
 }
 
