@@ -106,13 +106,13 @@ body {
   border: none;
 }
 
-/* .btn--download {
+.btn--download {
   background-color: var(--clr-primary-600);
 }
 
 .btn--question {
   background-color: var(--clr-accent-600);
-} */
+}
 
 .hero-description {
   letter-spacing: 4px;
