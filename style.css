@@ -82,10 +82,6 @@ body {
   min-height: 100svh;
 }
 
-p {
-  margin-bottom: 2rem;
-}
-
 /* Typography */
 .content-title {
   font-size: var(--fs-h2);
@@ -160,6 +156,10 @@ p {
 
 .main-image {
   border-radius: 0.8rem;
+}
+
+.hero-main__content {
+  display: grid;
 }
 
 /* Utility classes */
