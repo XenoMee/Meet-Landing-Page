@@ -102,8 +102,8 @@ body {
 .btn {
   padding: 0.8em 2em;
   color: var(--clr-primary-100);
-  /* border-radius: 2rem;
-  border: none; */
+  border-radius: 2rem;
+  border: none;
 }
 
 /* .btn--download {
