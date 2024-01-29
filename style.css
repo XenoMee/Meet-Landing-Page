@@ -82,6 +82,10 @@ body {
   min-height: 100svh;
 }
 
+p {
+  margin-bottom: var(--content-spacing);
+}
+
 /* Typography */
 .content-title {
   font-size: var(--fs-h2);
@@ -133,9 +137,9 @@ body {
   padding: var(--content-padding);
 }
 
-.intro-buttons {
+/* .intro-buttons {
   gap: 1rem;
-}
+} */
 
 /* .container {
   display: grid;
