@@ -162,6 +162,7 @@ body {
 
 .hero-main__content {
   display: grid;
+  gap: 1.5rem;
 }
 
 .accent-color {
