@@ -102,6 +102,7 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: var(--fw-bold);
+  order: -1;
 }
 
 .footer-text {
