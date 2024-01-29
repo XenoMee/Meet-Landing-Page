@@ -146,9 +146,9 @@ body {
   padding: var(--content-padding);
 }
 
-/* .hero-intro__content > p {
+.hero-intro__content > p {
   margin-bottom: 1.5rem;
-} */
+}
 
 .intro-buttons {
   gap: var(--content-spacing);
