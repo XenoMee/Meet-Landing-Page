@@ -127,6 +127,10 @@ p {
   background-color: var(--clr-accent-600);
 }
 
+.version-color {
+  opacity: 0.5;
+}
+
 /* Layout */
 
 .logo {
