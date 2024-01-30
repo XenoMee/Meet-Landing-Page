@@ -327,7 +327,7 @@ body {
   }
 }
 
-@media (min-width: 80em) {
+@media (min-width: 70em) {
   /* Typography */
   :root {
     --fs-h1: 4rem;
