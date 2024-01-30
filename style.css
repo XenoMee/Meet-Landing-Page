@@ -356,8 +356,8 @@ body {
     background-image: url("./public/assets/desktop/image-footer.jpg");
   }
 
-  /* .footer__content {
+  .footer__content {
     text-align: start;
     grid-template-columns: repeat(3, 1fr);
-  } */
+  }
 }
