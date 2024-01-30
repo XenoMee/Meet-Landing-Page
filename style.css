@@ -160,9 +160,9 @@ body {
   transform: scale(1.1);
 }
 
-/* .hero-intro img {
+.hero-intro img {
   margin: 0 auto;
-} */
+}
 
 .intro__content {
   padding: var(--content-padding);
