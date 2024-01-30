@@ -338,7 +338,7 @@ body {
     display: block;
   }
 
-  /* .intro-image {
+  .intro-image {
     transform: scale(1);
-  } */
+  }
 }
