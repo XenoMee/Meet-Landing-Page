@@ -328,6 +328,12 @@ body {
 }
 
 @media (min-width: 80em) {
+  /* Typography */
+  :root {
+    --fs-h1: 4rem;
+    --fs-default: 1.125rem;
+  }
+  /* Layout */
   .hero-intro {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
