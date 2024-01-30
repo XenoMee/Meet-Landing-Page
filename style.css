@@ -346,5 +346,6 @@ body {
   .hero-main__images {
     margin-left: auto;
     margin-right: auto;
+    gap: 1.5rem;
   }
 }
