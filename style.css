@@ -238,7 +238,7 @@ body {
 .footer {
   color: var(--clr-primary-100);
   position: relative;
-  padding: 4rem 1.5rem;
+  padding: 6rem 1.5rem;
 }
 
 .footer::before {
