@@ -334,6 +334,10 @@ body {
     --fs-default: 1.125rem;
   }
   /* Layout */
+  /* .logo {
+    margin-bottom: 3rem;
+  } */
+
   .hero-intro {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -342,11 +346,13 @@ body {
 
   .hero-image {
     margin-left: 0;
+    transform: translateX(-2rem);
   }
 
   .image-hero-right {
     display: block;
     margin-left: auto;
+    transform: translateX(2rem);
   }
 
   .intro-image {
