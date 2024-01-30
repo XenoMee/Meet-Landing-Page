@@ -271,3 +271,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+@media (min-width: 700px) {
+  .intro-image {
+    transform: scale(1.07);
+  }
+}
