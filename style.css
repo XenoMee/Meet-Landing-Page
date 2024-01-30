@@ -340,6 +340,10 @@ body {
     align-items: center;
   }
 
+  .hero-intro img {
+    margin: 0;
+  }
+
   .image-hero-right {
     display: block;
   }
