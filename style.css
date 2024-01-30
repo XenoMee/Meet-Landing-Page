@@ -289,4 +289,8 @@ body {
     flex-direction: row;
     justify-content: center;
   }
+
+  .hero-main__images {
+    gap: 0.5rem;
+  }
 }
