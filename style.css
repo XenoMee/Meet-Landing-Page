@@ -223,6 +223,7 @@ body {
 }
 
 .hero-main__images {
+  max-width: 70rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1.5rem;
@@ -340,5 +341,10 @@ body {
 
   .intro-image {
     transform: scale(1);
+  }
+
+  .hero-main__images {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
