@@ -160,12 +160,12 @@ body {
   transform: scale(1.1);
 }
 
-.image-hero-right {
-  display: none;
+.hero-image {
+  margin: 0 auto;
 }
 
-.hero-intro img {
-  margin: 0 auto;
+.image-hero-right {
+  display: none;
 }
 
 .intro__content {
@@ -346,6 +346,7 @@ body {
 
   .image-hero-right {
     display: block;
+    margin-left: auto;
   }
 
   .intro-image {
