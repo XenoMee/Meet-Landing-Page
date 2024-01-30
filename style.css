@@ -328,11 +328,11 @@ body {
 }
 
 @media (min-width: 80em) {
-  /* .hero-intro {
+  .hero-intro {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-  } */
+  }
 
   .image-hero-right {
     display: block;
