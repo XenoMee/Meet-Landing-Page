@@ -334,9 +334,9 @@ body {
     --fs-default: 1.125rem;
   }
   /* Layout */
-  /* .logo {
+  .logo {
     margin-bottom: 3rem;
-  } */
+  }
 
   .hero-intro {
     display: grid;
