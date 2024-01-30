@@ -319,7 +319,7 @@ body {
   }
 
   .footer {
-    padding: 5rem 5rem;
+    padding: 5rem;
   }
 
   .footer::before {
@@ -350,6 +350,10 @@ body {
 
   .hero-main__content {
     max-width: 28.5rem;
+  }
+
+  .footer {
+    padding: 7rem;
   }
 
   .footer::before {
