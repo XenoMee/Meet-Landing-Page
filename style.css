@@ -359,5 +359,6 @@ body {
   .footer__content {
     text-align: start;
     grid-template-columns: repeat(3, 1fr);
+    gap: 7rem;
   }
 }
