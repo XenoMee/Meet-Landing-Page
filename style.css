@@ -348,4 +348,8 @@ body {
     margin-right: auto;
     gap: 1.5rem;
   }
+
+  .hero-main__content {
+    max-width: 28.5rem;
+  }
 }
