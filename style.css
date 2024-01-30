@@ -278,7 +278,10 @@ body {
 
 @media (min-width: 40em) {
   /* Typography */
-
+  :root {
+    --fs-h1: 3rem;
+    --fs-h2: 2.5rem;
+  }
   /* Layout */
   .logo {
     margin-bottom: 5rem;
