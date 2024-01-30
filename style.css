@@ -272,6 +272,9 @@ body {
 }
 
 @media (min-width: 700px) {
+  /* Typography */
+
+  /* Layout */
   .logo {
     margin-bottom: 5rem;
   }
@@ -292,5 +295,10 @@ body {
 
   .hero-main__images {
     gap: 0.5rem;
+  }
+
+  .hero-main__content {
+    max-width: 36rem;
+    margin: 0 auto;
   }
 }
