@@ -160,6 +160,10 @@ body {
   transform: scale(1.1);
 }
 
+.intro-image > img {
+  margin: 0 auto;
+}
+
 .intro__content {
   padding: var(--content-padding);
   margin: 1rem 0rem;
