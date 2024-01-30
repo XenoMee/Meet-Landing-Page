@@ -94,7 +94,7 @@ body {
 .intro--title {
   width: 10ch;
   font-size: var(--fs-h1);
-  margin: 1rem auto 1.5rem;
+  margin: 0rem auto 1.5rem;
 }
 
 .content-title {
@@ -162,6 +162,7 @@ body {
 
 .intro__content {
   padding: var(--content-padding);
+  margin: 1rem 0rem;
 }
 
 .intro__content > p {
@@ -275,5 +276,10 @@ body {
 @media (min-width: 700px) {
   .intro-image {
     transform: scale(1.07);
+  }
+
+  .intro__content {
+    max-width: 28.5rem;
+    margin: 3rem auto 1.5rem;
   }
 }
