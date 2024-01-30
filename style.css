@@ -272,6 +272,10 @@ body {
   gap: 2rem;
 }
 
+.footer-title {
+  width: 12ch;
+}
+
 @media (min-width: 700px) {
   /* Typography */
 
