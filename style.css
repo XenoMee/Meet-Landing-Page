@@ -359,6 +359,10 @@ body {
     transform: scale(1);
   }
 
+  .intro__content {
+    max-width: 33rem;
+  }
+
   .hero-main__images {
     margin-left: auto;
     margin-right: auto;
